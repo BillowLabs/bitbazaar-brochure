@@ -1,0 +1,176 @@
+@font-face {
+	font-family: 'ProximaNova-Light';
+	src: url('proximanova-light.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'ProximaNova-Bold';
+	src: url('proximanova-bold.ttf') format('truetype');
+}
+
+
+
+
+html {
+	font-size: 100%;
+}
+
+body {
+	background-color: #333;
+	font-family: ProximaNova-Light, sans-serif;
+	color: #fff;
+	font-size: .90rem;
+	position: relative;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+	color: #C8FAFF;
+}
+
+canvas {
+  display: block;
+  vertical-align: bottom;
+}
+
+h1 {
+	font-size: 1.8em;
+}
+
+
+
+
+.particle-background {
+  position: absolute;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	/*
+	Setting the z-index makes the particles appear behind our content
+	but it means that onclick no longer works.
+	*/
+	z-index: -1;
+}
+
+
+.page-section {
+	position: relative;
+	border-bottom: 4px solid #000;
+}
+
+.page-section-content {
+	display: table;
+  margin: 0 auto;
+	margin: auto;
+	padding: 80px 0px;
+	max-width: 280px;
+}
+
+.button {
+	display: inline-block;
+	padding: .5em .5em;
+	margin: 1em .25em;
+	font-size: 1.25em;
+	cursor: pointer;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	text-decoration: none;
+	text-align: center;
+	color: #fff;
+	background: #343436;
+	border: 1px solid #fff;
+	border-radius: 3px;
+}
+
+.button:hover {
+	background-color: #fff;
+	color: #343436;
+}
+
+.button.reverse {
+	background-color: #fff;
+	color: #343436;
+}
+
+.button.reverse:hover {
+	background-color: #343436;
+	color: #fff;
+}
+
+
+
+.page-section-content.header {
+	text-align: center;
+}
+
+.page-section-content.header h1 {
+	font-size: 2.8em;
+	font-family: Good-Times, sans-serif;
+	text-decoration: underline;
+}
+
+.page-section-content.header .subtitle {
+	padding-top: .75em;
+	font-size: 1.5em;
+}
+
+
+.page-section.how {
+	background: #333;
+}
+
+
+.loginbox {
+  /*To display vertical center*/
+  position: relative;
+  transform: translate(0px, -50%);
+  /*border: 1px solid #AA0000;*/
+  top: 50%;
+
+  /*To display horizontal center*/
+  /*display: block;
+  width: 300px;
+  margin: auto;*/
+  border-top: 4px solid black;
+  border-bottom: 4px solid black;
+  background-color: #fff;
+  color: #666;
+
+  font-size: 65px;
+  text-align: center;
+
+  /*background-color: #333;*/
+  padding: 40px 0;
+
+}
+
+.bazaar {
+  color: #FFC700;
+}
+
+.subtitle {
+  font-size: 24px;
+}
+
+.comingsoon {
+  margin: 40px 0;
+  font-size: 18px;
+}
+
+.footer {
+  font-size: 20px;
+}
+
+.footer a {
+  color: #666;
+  font-weight: bold;
+  text-decoration: none;
+  font-style: italic;
+  border-bottom: 1px solid #B009B2;
+}
