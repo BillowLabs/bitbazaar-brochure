@@ -1,4 +1,4 @@
-# bitbazaar
+# brochure
 
 > Nuxt.js project
 
